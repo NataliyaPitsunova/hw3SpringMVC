@@ -1,5 +1,6 @@
 package ru.geekbrains.hw3springmvc.model;
 
+
 public class Product {
     private static Long counter = 1L;
     Long id;

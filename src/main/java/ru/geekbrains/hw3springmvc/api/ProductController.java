@@ -1,6 +1,5 @@
 package ru.geekbrains.hw3springmvc.api;
 
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -9,7 +8,6 @@ import ru.geekbrains.hw3springmvc.ProductRepository;
 import ru.geekbrains.hw3springmvc.model.Product;
 
 import java.util.List;
-
 
 @Controller
 @RequestMapping("/products")

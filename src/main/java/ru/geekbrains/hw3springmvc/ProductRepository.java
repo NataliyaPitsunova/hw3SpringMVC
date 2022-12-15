@@ -13,7 +13,6 @@ import java.util.List;
 @Repository
 public class ProductRepository {
     List<Product> products;
-
     @PostConstruct
     public void init() {
         products = new ArrayList<>();
